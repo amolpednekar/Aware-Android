@@ -76,12 +76,16 @@ public class SenseDB_ActionTypeList_Activity extends AppCompatActivity {
                 switch (i){
                     case 0:
                         Toast.makeText(SenseDB_ActionTypeList_Activity.this, item, Toast.LENGTH_SHORT).show();
-                        Aware.stopAccelerometer(awareContext);
+
+                        //Dont use stop, because start doesnt work!
+                        //Aware.stopAccelerometer(awareContext);
+
                         break;
 
                     case 1:
                         Toast.makeText(SenseDB_ActionTypeList_Activity.this, item, Toast.LENGTH_SHORT).show();
-                        Aware.startAccelerometer(awareContext);
+                        //Doesnt work if stopSensorName() is called!
+                        // /Aware.startAccelerometer(awareContext);
                         break;
 
                     case 2:
