@@ -1,3 +1,6 @@
+Building on top of AwareFramework Android to utilize sensors for research.
+
+-- From the creators of AWARE
 Copyright (c) 2014 AWARE Mobile Context Instrumentation Middleware/Framework (http://www.awareframework.com)
 
 Licensed under the Apache License, Version 2.0 (the "License");
